@@ -8,6 +8,8 @@ Copies the string values in `process.env` and parses each with `JSON.parse()` to
 
 That's it.
 
+Used by [Ptorx](https://ptorx.com) and other [Xyfir](https://www.xyfir.com) projects.
+
 # Usage
 
 Let's assume you have an `.env` file with the following data:
@@ -56,13 +58,14 @@ import 'enve';
 declare global {
   namespace NodeJS {
     interface Process {
-      enve: { foo: string; bar: boolean };
+      enve: {
+        foo: string;
+        bar: boolean;
+        baz: {
+          qux: number;
+        };
+      };
     }
   }
 }
-
-// Type 'true' is not assignable to type 'string'. ts(2322)
-process.env.foo = true;
-// Type 'string' is not assignable to type 'boolean'. ts(2322)
-process.env.bar = 'baz';
 ```

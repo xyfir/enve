@@ -1,6 +1,6 @@
 {
   "name": "enve",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSON-parsed environment variables",
   "main": "enve.js",
   "author": "Xyfir, LLC <contact@xyfir.com> (https://www.xyfir.com)",
