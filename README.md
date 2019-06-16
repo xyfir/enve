@@ -10,6 +10,8 @@ That's it.
 
 Used by [Ptorx](https://ptorx.com) and other [Xyfir](https://www.xyfir.com) projects.
 
+Due to its simplicity, this project should not need frequent updates.
+
 # Usage
 
 Let's assume you have an `.env` file with the following data:
