@@ -1,6 +1,6 @@
 {
   "name": "enve",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JSON-parsed environment variables",
   "main": "enve.js",
   "author": "Xyfir, LLC <contact@xyfir.com> (https://www.xyfir.com)",
@@ -21,5 +21,16 @@
     "expanded",
     "object",
     "nested"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xyfir/enve.git"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "bugs": {
+    "url": "https://github.com/Xyfir/enve/issues"
+  },
+  "homepage": "https://github.com/Xyfir/enve#readme"
 }
