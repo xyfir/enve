@@ -1,14 +1,9 @@
-JSON-parsed environment variables.
+JSON-parsed environment variables. No dependencies. Parses string values in `process.env` with `JSON.parse()` to `process.enve`.
 
-Super lightweight.
+Used by **[illuminsight](https://www.illuminsight.com)**, **[Ptorx](https://ptorx.com)** and other **[Xyfir](https://www.xyfir.com)** projects.
 
-No dependencies.
-
-Copies the string values in `process.env` and parses each with `JSON.parse()` to `process.enve`.
-
-That's it.
-
-Used by [Ptorx](https://ptorx.com) and other [Xyfir](https://www.xyfir.com) projects.
+[![npm version](https://badge.fury.io/js/enve.svg)](https://badge.fury.io/js/enve)
+[![Build Status](https://travis-ci.org/xyfir/enve.svg?branch=master)](https://travis-ci.org/xyfir/enve)
 
 Due to its simplicity, this project should not need frequent updates.
 
