@@ -2,9 +2,16 @@ language: node_js
 node_js:
 - node
 deploy:
-  provider: releases
-  api_key:
-    secure: VHeVsoOEphRajgy7cKwd0kla05xHRW83+DZRAa1uy/4WX6dq9/+gvy6CqgzwrAkGoj6bgioomrNkas/OwQ9Pk9KrIFy403Knlt/b9O4NwwtvexC8ZniVmS0wnvnkbwELfulzz7fLKOWGllzxNpZdT8P9vXvAbvy9qZDu75GU2hN/KphPNNPCrDngHcsLntcuJfJSqRxKVVso+edu2W2Wtcks9Hx9FCJC+cxTeWxR8y6EFA5xUDw1mVfaJPUW7zAW5VQAh7peOdMubuWTPAqyE+oEeV67yi/zscaS+CAAjcEVFdj+391gNYbDlEy7zxA+VyPv53hZP1zCH3UamYJP/Ph8FKumb62x29KAumtAX7sMSrAt6GAC2j2D3yhrGi308I57KPtUeLuBDh5Y2SrdouZ79Ahjkh9qY6a/0ulVDx0zs6QShFuiW4LGn2gZIKs10nfYd1zOe+2vR91jJBf3WKDN44HrVabxs/y46aUV1ItNvv9JrTiOW49zfSgFmY2oLgsljqe9USDlYfHmNfqBQsUMQfKRvDMcrxQjHaZym+WIy67RRIqWWTQfh2sx2rq9B/M3pl/yCxq9lX6Xc+m4IxN3Jywa++OFd1Z1j3eE0MXtaOBx8jw0kMslSu2sByN2ve2iMJUyLJ34MF+XRmfNGyTgtEmIADhFw1MuG7DPIvs=
-  on:
-    repo: xyfir/enve
-    tags: true
+  - provider: releases
+    api_key:
+      secure: VHeVsoOEphRajgy7cKwd0kla05xHRW83+DZRAa1uy/4WX6dq9/+gvy6CqgzwrAkGoj6bgioomrNkas/OwQ9Pk9KrIFy403Knlt/b9O4NwwtvexC8ZniVmS0wnvnkbwELfulzz7fLKOWGllzxNpZdT8P9vXvAbvy9qZDu75GU2hN/KphPNNPCrDngHcsLntcuJfJSqRxKVVso+edu2W2Wtcks9Hx9FCJC+cxTeWxR8y6EFA5xUDw1mVfaJPUW7zAW5VQAh7peOdMubuWTPAqyE+oEeV67yi/zscaS+CAAjcEVFdj+391gNYbDlEy7zxA+VyPv53hZP1zCH3UamYJP/Ph8FKumb62x29KAumtAX7sMSrAt6GAC2j2D3yhrGi308I57KPtUeLuBDh5Y2SrdouZ79Ahjkh9qY6a/0ulVDx0zs6QShFuiW4LGn2gZIKs10nfYd1zOe+2vR91jJBf3WKDN44HrVabxs/y46aUV1ItNvv9JrTiOW49zfSgFmY2oLgsljqe9USDlYfHmNfqBQsUMQfKRvDMcrxQjHaZym+WIy67RRIqWWTQfh2sx2rq9B/M3pl/yCxq9lX6Xc+m4IxN3Jywa++OFd1Z1j3eE0MXtaOBx8jw0kMslSu2sByN2ve2iMJUyLJ34MF+XRmfNGyTgtEmIADhFw1MuG7DPIvs=
+    on:
+      repo: xyfir/enve
+      tags: true
+  - provider: npm
+    email: contact@xyfir.com
+    api_key:
+      secure: p3ZJeRWgETOGiDHwyZQgl/3eOWAzeuwpxptPgK08kKPpayyXk7PmY1WxtDqGQb0sB1PkHRts7q4iTYtQ7DelS9PHy4Vwuz9ZnhU6YETI3aXJRB/i9y7j+8C/7ABVsLRUi8CyXOvso3HWhFe0h+i0TeYW9psyAFTwNHQZl2fbnCW+3uOwhIdS5ABmR7M2A69OeuWSjXiziTmXsCcFxzArwrbEJLR6FBoeRTAPfh3I0ly/X4/AbhNKSiaku4gv4z6AgvLktqYPt4VsBYfkOH1y9QqVPG/flS8206Wu5MBiaDsoM+daDvEsj9dHiQ5ArB6H8XzZXqWlhnBPXLxvWO6K0xRDJMNAY/XSgUlea7C5C3IhY+wVyztAjXMIxjb5XXwX6WBhFm2wn5YAd2wMn3hGh5p+3KqUXG/2KPJBb5rhkbXFitc/aP8TTuidAshlHNw+xu0d+Y7Lh49BS6tTlt29K3BWNGAdUF+Qt2JLK1vXii/r+K4t4LzF456rP0SshKKuKN5M/NCHrkQa+F6o9USt3DxF57ws4eDwMj+e23WdmUD1EY5d2qzVCrD3QdIbEQUpWAeBlrT705jb3PB+Xk4KLSUwP6INpEA+v1b7+lxf5SMP7hWL8xK0SKl+Y6K1Q6d11zmaaRb9kTa05LZOsbADgHQVqcds7HZG9sCZcSlJpGM=
+    on:
+      tags: true
+      repo: xyfir/enve
