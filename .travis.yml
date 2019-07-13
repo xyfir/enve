@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - "node"
+- node
+deploy:
+  provider: releases
+  api_key:
+    secure: VHeVsoOEphRajgy7cKwd0kla05xHRW83+DZRAa1uy/4WX6dq9/+gvy6CqgzwrAkGoj6bgioomrNkas/OwQ9Pk9KrIFy403Knlt/b9O4NwwtvexC8ZniVmS0wnvnkbwELfulzz7fLKOWGllzxNpZdT8P9vXvAbvy9qZDu75GU2hN/KphPNNPCrDngHcsLntcuJfJSqRxKVVso+edu2W2Wtcks9Hx9FCJC+cxTeWxR8y6EFA5xUDw1mVfaJPUW7zAW5VQAh7peOdMubuWTPAqyE+oEeV67yi/zscaS+CAAjcEVFdj+391gNYbDlEy7zxA+VyPv53hZP1zCH3UamYJP/Ph8FKumb62x29KAumtAX7sMSrAt6GAC2j2D3yhrGi308I57KPtUeLuBDh5Y2SrdouZ79Ahjkh9qY6a/0ulVDx0zs6QShFuiW4LGn2gZIKs10nfYd1zOe+2vR91jJBf3WKDN44HrVabxs/y46aUV1ItNvv9JrTiOW49zfSgFmY2oLgsljqe9USDlYfHmNfqBQsUMQfKRvDMcrxQjHaZym+WIy67RRIqWWTQfh2sx2rq9B/M3pl/yCxq9lX6Xc+m4IxN3Jywa++OFd1Z1j3eE0MXtaOBx8jw0kMslSu2sByN2ve2iMJUyLJ34MF+XRmfNGyTgtEmIADhFw1MuG7DPIvs=
+  on:
+    repo: xyfir/enve
+    tags: true
